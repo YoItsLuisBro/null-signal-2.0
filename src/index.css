@@ -238,7 +238,7 @@ canvas {
   }
 
   .ns-bottom-safe {
-    padding-bottom: 6rem;
+    padding-bottom: calc(4.5rem + env(safe-area-inset-bottom));
   }
 
   .ns-project-image {
