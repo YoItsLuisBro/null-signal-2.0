@@ -1,6 +1,7 @@
 import rawWaveCover from "../../assets/projects/raw-wave-cover.png";
 import glitchtype93Cover from "../../assets/projects/glitchtype93-cover.png";
 import cyberHeavenCover from "../../assets/projects/cyber-heaven-cover.png";
+import tripSlabsCover from '../../assets/projects/trip-slabs-cover.png';
 
 export const projects = [
   {
@@ -44,6 +45,20 @@ export const projects = [
     status: "Live",
     year: "2026",
     category: "Product App",
+  },
+  {
+    slug: "trip-slabs",
+    title: "TRIP SLABS",
+    description:
+      "A travel planning interface built around structured day-by-day slabs, clear organization, and a visual system designed to make trip planning feel lightweight and intuitive.",
+    stack: ["React", "Vite", "Tailwind", "Travel UI"],
+    liveUrl: "https://trip-slabs.vercel.app/",
+    repoUrl: "https://github.com/YoItsLuisBro/trip-slabs",
+    image: tripSlabsCover,
+    featured: true,
+    status: "Live",
+    year: "2026",
+    category: "Product System",
   },
 ];
 
