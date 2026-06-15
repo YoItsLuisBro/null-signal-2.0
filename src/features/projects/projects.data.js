@@ -3,6 +3,7 @@ import glitchtype93Cover from "../../assets/projects/glitchtype93-cover.png";
 import cyberHeavenCover from "../../assets/projects/cyber-heaven-cover.png";
 import tripSlabsCover from "../../assets/projects/trip-slabs-cover.png";
 import roleReadyCover from "../../assets/projects/role-ready-cover.png";
+import queryQuestCover from '../../assets/projects/quest-query-cover.png'
 
 export const projects = [
   {
@@ -74,6 +75,20 @@ export const projects = [
     status: "Live",
     year: "2026",
     category: "Frontend",
+  },
+  {
+    slug: "query-quest",
+    title: "QUERY//QUEST",
+    description:
+      "A neo-brutalist SQL learning platform with structured lesson paths, interactive practice, and a focused interface for mastering database fundamentals.",
+    stack: ["React", "TypeScript", "Vite", "TailwindCSS"],
+    liveUrl: "https://query-quest-delta.vercel.app/",
+    repoUrl: "https://github.com/YoItsLuisBro/query-quest",
+    image: queryQuestCover,
+    featured: true,
+    status: "Live",
+    year: "2026",
+    category: "Learning Platform",
   },
 ];
 
