@@ -3,7 +3,8 @@ import glitchtype93Cover from "../../assets/projects/glitchtype93-cover.png";
 import cyberHeavenCover from "../../assets/projects/cyber-heaven-cover.png";
 import tripSlabsCover from "../../assets/projects/trip-slabs-cover.png";
 import roleReadyCover from "../../assets/projects/role-ready-cover.png";
-import queryQuestCover from '../../assets/projects/quest-query-cover.png'
+import queryQuestCover from "../../assets/projects/quest-query-cover.png";
+import scriptQuestCover from "../../assets/projects/script-quest-cover.png";
 
 export const projects = [
   {
@@ -85,6 +86,20 @@ export const projects = [
     liveUrl: "https://query-quest-delta.vercel.app/",
     repoUrl: "https://github.com/YoItsLuisBro/query-quest",
     image: queryQuestCover,
+    featured: true,
+    status: "Live",
+    year: "2026",
+    category: "Learning Platform",
+  },
+  {
+    slug: "script-quest",
+    title: "SCRIPT//QUEST",
+    description:
+      "A neo-brutalist JavaScript learning platform with structured lesson paths, hands-on coding practice, and a focused interface for building programming fundamentals.",
+    stack: ["React", "TypeScript", "Vite", "TailwindCSS"],
+    liveUrl: "https://script-quest.vercel.app/",
+    repoUrl: "https://github.com/YoItsLuisBro/script-quest",
+    image: scriptQuestCover,
     featured: true,
     status: "Live",
     year: "2026",
