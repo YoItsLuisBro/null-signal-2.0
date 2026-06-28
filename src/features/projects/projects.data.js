@@ -5,6 +5,7 @@ import tripSlabsCover from "../../assets/projects/trip-slabs-cover.png";
 import roleReadyCover from "../../assets/projects/role-ready-cover.png";
 import queryQuestCover from "../../assets/projects/quest-query-cover.png";
 import scriptQuestCover from "../../assets/projects/script-quest-cover.png";
+import checkpointCover from "../../assets/projects/checkpoint-cover.png";
 
 export const projects = [
   {
@@ -16,6 +17,34 @@ export const projects = [
     liveUrl: "https://cyberheaven.app/",
     repoUrl: "https://github.com/YoItsLuisBro/cyberheaven",
     image: cyberHeavenCover,
+    featured: true,
+    status: "Live",
+    year: "2026",
+    category: "Product App",
+  },
+  {
+    slug: "glitchtype93",
+    title: "GLITCHTYPE '93",
+    description:
+      "A retro-styled experimental interface with glitch-heavy branding, high-contrast presentation, and a deliberately loud visual identity.",
+    stack: ["React", "Vite", "CSS", "Experimental UI"],
+    liveUrl: "https://glitchtype93.vercel.app/",
+    repoUrl: "https://github.com/YoItsLuisBro/glitchtype93",
+    image: glitchtype93Cover,
+    featured: true,
+    status: "Live",
+    year: "2026",
+    category: "Creative UI",
+  },
+  {
+    slug: "checkpoint",
+    title: "CHECKPOINT",
+    description:
+      "A mobile-only accountability and progress tracker built around clean check-ins, focused routines, and quick personal milestones — mobile only for now.",
+    stack: ["React", "TypeScript", "Vite", "Supabase"],
+    liveUrl: "https://checkpoint-khaki-eight.vercel.app/",
+    repoUrl: "https://github.com/YoItsLuisBro/checkpoint",
+    image: checkpointCover,
     featured: true,
     status: "Live",
     year: "2026",
@@ -34,20 +63,6 @@ export const projects = [
     status: "Live",
     year: "2026",
     category: "Frontend",
-  },
-  {
-    slug: "glitchtype93",
-    title: "GLITCHTYPE '93",
-    description:
-      "A retro-styled experimental interface with glitch-heavy branding, high-contrast presentation, and a deliberately loud visual identity.",
-    stack: ["React", "Vite", "CSS", "Experimental UI"],
-    liveUrl: "https://glitchtype93.vercel.app/",
-    repoUrl: "https://github.com/YoItsLuisBro/glitchtype93",
-    image: glitchtype93Cover,
-    featured: true,
-    status: "Live",
-    year: "2026",
-    category: "Creative UI",
   },
   {
     slug: "trip-slabs",
