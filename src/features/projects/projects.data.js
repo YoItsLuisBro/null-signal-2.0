@@ -6,6 +6,7 @@ import roleReadyCover from "../../assets/projects/role-ready-cover.png";
 import queryQuestCover from "../../assets/projects/quest-query-cover.png";
 import scriptQuestCover from "../../assets/projects/script-quest-cover.png";
 import checkpointCover from "../../assets/projects/checkpoint-cover.png";
+import boredCover from "../../assets/projects/bored-cover.png";
 
 export const projects = [
   {
@@ -17,6 +18,34 @@ export const projects = [
     liveUrl: "https://cyberheaven.app/",
     repoUrl: "https://github.com/YoItsLuisBro/cyberheaven",
     image: cyberHeavenCover,
+    featured: true,
+    status: "Live",
+    year: "2026",
+    category: "Product App",
+  },
+  {
+    slug: "checkpoint",
+    title: "CHECKPOINT",
+    description:
+      "A mobile-only accountability and progress tracker built around clean check-ins, focused routines, and quick personal milestones — mobile only for now.",
+    stack: ["React", "TypeScript", "Vite", "Supabase"],
+    liveUrl: "https://checkpoint-khaki-eight.vercel.app/",
+    repoUrl: "https://github.com/YoItsLuisBro/checkpoint",
+    image: checkpointCover,
+    featured: true,
+    status: "Live",
+    year: "2026",
+    category: "Product App",
+  },
+  {
+    slug: "bored",
+    title: "bored.",
+    description:
+      "A terminal-minimal research suggestion app that gives curious users endless topics to explore, save, tag, and revisit as a personal curiosity archive.",
+    stack: ["React", "TypeScript", "Vite", "Supabase"],
+    liveUrl: "https://bored-roan.vercel.app/",
+    repoUrl: "https://github.com/YoItsLuisBro/bored",
+    image: boredCover,
     featured: true,
     status: "Live",
     year: "2026",
@@ -36,34 +65,20 @@ export const projects = [
     year: "2026",
     category: "Creative UI",
   },
-  {
-    slug: "checkpoint",
-    title: "CHECKPOINT",
-    description:
-      "A mobile-only accountability and progress tracker built around clean check-ins, focused routines, and quick personal milestones — mobile only for now.",
-    stack: ["React", "TypeScript", "Vite", "Supabase"],
-    liveUrl: "https://checkpoint-khaki-eight.vercel.app/",
-    repoUrl: "https://github.com/YoItsLuisBro/checkpoint",
-    image: checkpointCover,
-    featured: true,
-    status: "Live",
-    year: "2026",
-    category: "Product App",
-  },
-  {
-    slug: "raw-wave",
-    title: "RAW//WAVE",
-    description:
-      "A brutalist music interface experiment focused on hierarchy, interaction, and a loud visual system built to feel distinct at first glance.",
-    stack: ["React", "Vite", "Tailwind", "UI Design"],
-    liveUrl: "https://raw-wave.vercel.app/",
-    repoUrl: "https://github.com/YoItsLuisBro/raw-wave",
-    image: rawWaveCover,
-    featured: true,
-    status: "Live",
-    year: "2026",
-    category: "Frontend",
-  },
+  // {
+  //   slug: "raw-wave",
+  //   title: "RAW//WAVE",
+  //   description:
+  //     "A brutalist music interface experiment focused on hierarchy, interaction, and a loud visual system built to feel distinct at first glance.",
+  //   stack: ["React", "Vite", "Tailwind", "UI Design"],
+  //   liveUrl: "https://raw-wave.vercel.app/",
+  //   repoUrl: "https://github.com/YoItsLuisBro/raw-wave",
+  //   image: rawWaveCover,
+  //   featured: true,
+  //   status: "Live",
+  //   year: "2026",
+  //   category: "Frontend",
+  // },
   {
     slug: "trip-slabs",
     title: "TRIP SLABS",
@@ -92,34 +107,34 @@ export const projects = [
     year: "2026",
     category: "Frontend",
   },
-  {
-    slug: "query-quest",
-    title: "QUERY//QUEST",
-    description:
-      "A neo-brutalist SQL learning platform with structured lesson paths, interactive practice, and a focused interface for mastering database fundamentals.",
-    stack: ["React", "TypeScript", "Vite", "TailwindCSS"],
-    liveUrl: "https://query-quest-delta.vercel.app/",
-    repoUrl: "https://github.com/YoItsLuisBro/query-quest",
-    image: queryQuestCover,
-    featured: true,
-    status: "Live",
-    year: "2026",
-    category: "Learning Platform",
-  },
-  {
-    slug: "script-quest",
-    title: "SCRIPT//QUEST",
-    description:
-      "A neo-brutalist JavaScript learning platform with structured lesson paths, hands-on coding practice, and a focused interface for building programming fundamentals.",
-    stack: ["React", "TypeScript", "Vite", "TailwindCSS"],
-    liveUrl: "https://script-quest.vercel.app/",
-    repoUrl: "https://github.com/YoItsLuisBro/script-quest",
-    image: scriptQuestCover,
-    featured: true,
-    status: "Live",
-    year: "2026",
-    category: "Learning Platform",
-  },
+  // {
+  //   slug: "query-quest",
+  //   title: "QUERY//QUEST",
+  //   description:
+  //     "A neo-brutalist SQL learning platform with structured lesson paths, interactive practice, and a focused interface for mastering database fundamentals.",
+  //   stack: ["React", "TypeScript", "Vite", "TailwindCSS"],
+  //   liveUrl: "https://query-quest-delta.vercel.app/",
+  //   repoUrl: "https://github.com/YoItsLuisBro/query-quest",
+  //   image: queryQuestCover,
+  //   featured: true,
+  //   status: "Live",
+  //   year: "2026",
+  //   category: "Learning Platform",
+  // },
+  // {
+  //   slug: "script-quest",
+  //   title: "SCRIPT//QUEST",
+  //   description:
+  //     "A neo-brutalist JavaScript learning platform with structured lesson paths, hands-on coding practice, and a focused interface for building programming fundamentals.",
+  //   stack: ["React", "TypeScript", "Vite", "TailwindCSS"],
+  //   liveUrl: "https://script-quest.vercel.app/",
+  //   repoUrl: "https://github.com/YoItsLuisBro/script-quest",
+  //   image: scriptQuestCover,
+  //   featured: true,
+  //   status: "Live",
+  //   year: "2026",
+  //   category: "Learning Platform",
+  // },
 ];
 
 export const featuredProjects = projects.filter((project) => project.featured);
